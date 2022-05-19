@@ -1,0 +1,313 @@
+
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #f0f4f6;	
+}
+.tan{
+	
+	font-family: 'Poppins', sans-serif;
+	background-color: #f0f4f6;
+	width: 100%;
+	height: 100%;
+
+}
+.header{  						/*	đường ngang*/
+	width: 86%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid black;
+}
+.chuvaicon{
+	display: flex;
+	align-items: center;
+	/*margin-left: 20px;*/ /*di chuyển icon máy bay và chữ*/
+
+
+}
+.chuvaicon > i{ 		/*dịch chuyển chữ Vận...*/
+	margin-right: 12px;
+
+}
+.emaillogo{
+	display: flex;
+	align-items: center;
+	margin-left: 190px;  /*di chuyển icon email và tên*/
+
+
+}
+.emaillogo >i{
+	margin-right: 12px;  /*di chuyển chữ email*/
+}
+.icon > i{
+	margin-right: 10px;
+}
+.icon > i:hover{
+	color: green;
+}
+
+
+
+.tenlogo{
+	display: grid;
+	grid-template-columns: 1.2fr 3fr 1.1fr; 
+	width: 86%;
+	margin: auto;
+}
+.ten{
+
+	font-size: 30px;
+	display: flex;
+	align-items: center;
+}
+
+.giohang{
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+.giohang > i{			/*Kích cỡ 3 icon*/
+	margin-left: 50px;
+	font-size: 30px;
+
+}
+
+
+input{
+	margin-left: 20px;
+	margin-top: 40px;
+	height: 30px;
+	width: 800px;
+	border: 1px solid black;
+	background-color: Gray91;
+
+}
+
+
+
+.menu{
+	font-size: 20px;
+	display: flex;
+	justify-content: center;
+	
+
+}
+.menu p{
+	margin: 0 50px; /*di chuyển menu*/
+}
+.menu p:hover{
+	color: green;
+}
+.cauhoithuonggap  {
+	display: block;
+	margin-top: 100px;
+	margin-left: 540px;
+	font-size: 45px;
+}
+.cauhoithuonggap1  {
+	display: block;
+	margin-top: -40px;
+	margin-left: 570px;
+	font-size: 25px;
+	color: #9ACD32;
+}
+.giaohang{
+	display: block;
+	margin-top: 150px;
+	margin-left: 530px;
+	font-size: 45px;
+
+}
+.p{
+	width: 95%;
+}
+.giaohang1{
+	width: 95%;
+	display: flex;
+	margin-left: 40px;
+	font-size: 20px;
+}
+.giaohang1 > p{
+
+	margin-left: 190px;
+}
+.giaohang2{
+	width: 95%;
+	display: flex;
+	margin-left: 100px;
+	font-size: 20px;
+}
+.giaohang2 > p{
+	display: block;
+	width: 100%;
+	margin-left: 128px;
+	margin-top: 10px;
+}
+.giaohang2 > span{
+	display: block;
+	width: 100%;
+	margin-left: 100px;
+	margin-top: 10px;
+
+}
+.toi{
+	width: 95%;
+	display: flex;
+	margin-left: 160px;
+	font-size: 20px;
+	margin-top: 20px;
+}
+.toi > p{
+	width: 95%;
+	margin-left: 65px;
+}
+.toi > span{
+	width: 95%;
+	margin-left: 50px;
+}
+.toi2{
+	width: 95%;
+	display: flex;
+	margin-left: 100px;
+	font-size: 20px;
+
+}
+.toi2 > p{
+	width: 95%;
+	margin-left: 125px;
+}
+.toi2 > span{
+	width: 95%;
+	margin-left: 110px;
+	margin-top: 20px;
+}
+.toico{
+	width: 95%;
+	display: flex;
+	margin-left: 160px;
+	font-size: 20px;
+	margin-top: 20px;
+}
+.toico > p{
+	width: 95%;
+	margin-left: 63px;
+}
+.toico > span{
+	width: 95%;
+	margin-left: 50px;
+}
+.toico2{
+	width: 95%;
+	display: flex;
+	margin-left: 100px;
+	font-size: 20px;
+}
+.toico2 > p{
+	width: 95%;
+	margin-left: 122px;
+	margin-top: 10px;
+}
+.toico2 > span{
+	width: 95%;
+	margin-left: 113px;
+	margin-top: 10px;
+}
+.ngang{
+
+	width: 95%;
+	margin: center;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid black;
+	margin-left: 120px;
+}
+
+/*footer*/
+.phanduoi{
+	margin-top: 90px;
+    background-color: #24262b;
+   /* padding: 70 0px;*/
+    height: 300px;
+    width: 100%;
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+}
+.phanduoi1{
+    max-width: 3000px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    /*flex-wrap: wrap;*/
+}
+ul{
+    list-style: none;
+}
+
+.footer-col{
+    width: 50%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+    margin-left: 90px;
+    
+
+
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a {
+   font-size: 16px;
+   /*text-transform: capitalize;*/
+   text-decoration: none;
+   font-weight: 300;
+   color: #bbbbbb;
+   display: block;
+   transition: all 0.1s ease ;
+   margin-left: 50px;
+
+}
+.footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 99px;
+  }
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+
+
+}
+.footer-col .social-links a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+
+}
+.social-links{
+  margin-left: 90px;
+}
